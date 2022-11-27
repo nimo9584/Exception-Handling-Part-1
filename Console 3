@@ -1,0 +1,12 @@
+""" Logical errors define the flaw in the logic used in the program. The programmer might be using a wrong formula or the design
+of the program itself might be wrong. Logical errors are not detected either by the python compiler or the PVM. Hence, the
+programmer is solely responsible for correcting the logical errors in the code. """
+
+# An example of a logical error
+def population_increment(init_pop):
+    init_pop = init_pop * (20/100)
+    return(init_pop)
+now_pop = population_increment(78000)
+print("The present population is",now_pop)
+
+# It is obviously clear that, we have calculated only the increment and, hence the answer we are going to get wont' be correct.
