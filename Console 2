@@ -1,0 +1,16 @@
+"""" When the pvm(python virtual machine) can't execute the byte-code, it shows run-time error. It can occur when there is
+in-sufficient memory to store something or the inability of the pvm to execute some statements come under run-time errors. The
+main crux for these type of errors is that the python compiler is unable to detect these errors and they, can be detected by the
+PVM, only at run-time. """
+
+# In python there are a variety of runtime errors - Index error, Zerodivision error, Type error, etc.
+# Examples to demonstrate the run-time errors
+
+my_list = [1,2,3,4,5]
+print(my_list[7]) # It gives an index-error detected only by PVM
+
+my_num = 45
+divisor = 0
+print(my_num/divisor) # It gives a zerodivision error
+
+# Run-time errors are sometimes un-avoidable in code so, we tend to use exception handling as an extra precaution.
