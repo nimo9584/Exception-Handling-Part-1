@@ -1,0 +1,14 @@
+# Mostly the errors in programs are defined as bugs while, the process of removing them is called De-bugging.
+# Primarily errors are classified into 3 types - Compile time, Run time and Logical errors.
+
+""" Compile time errors can be defined as those errors which rise as a result of syntactical mistakes commited while writting
+code, it can occur due to a missing colon, comma, etc. in blocks of if, while, for, def, etc. keywords. Usually, the python
+compiler detects these errors while execution and prints out a suitable message in the terminal along with the description of
+the error. """
+
+# An example of compile time error
+k = 1
+if k == 1
+    print("The statement is true")
+    
+# The compiler prints out the message invalid syntax and hence, it is a compile time error
