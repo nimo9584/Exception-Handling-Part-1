@@ -1,0 +1,39 @@
+Some of the regularly used python scripts are given, observe the type of errors in them and re-write the code:
+
+# Exercise 1
+s = "python"
+for i in range(4)
+    print(s[i])
+    
+# Exercise 2
+L = [1,2,3,6,8]
+for i in range(6):
+    print(L[i])    
+
+# Exercise 3
+L = [1 2,5,7,8]
+i = 0
+while (i < 6):
+    print(L[i])
+    
+# Exercise 4
+# Program to calculate a number after 40 percent increment
+K = 10
+def increment(t):
+    t = t * (4/10)
+    return(t)
+print("The new number is",increment(K))
+
+# Exercise 5
+import io
+f_obj = open("Myfile.txt","w")
+a,b = map(int, input().split(" "))
+c = 0
+val_1 = a/2
+val_2 = b/c
+
+f_obj.write("Writting %d into myfile",%val_1)
+f_obj.write("Writting %d into myfile",%val_2)
+
+f.close()
+print("File closed")
