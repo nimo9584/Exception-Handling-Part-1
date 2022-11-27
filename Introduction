@@ -1,0 +1,13 @@
+This course and its contents are a part of my notes taken while going through the book "Core Python Programming" by R.Nageshwara.Rao.
+It covers the entire portion of exception handling which is a primary knowledge these days for SDEs or competitive programmers who want their code to be flaw-less.
+This course will be out in form of various parts which will cover the following :
+Concept of Bugs and the De-bugging
+Common Types of Exceptions, definitions and examples
+Exception handling with the except block
+Exception handling with the assert block
+User-defined exceptions
+Exception-logging
+Summary
+
+The agenda of this course is to make you familiar with the concept of Exception via layman language and examples so that you can get more acquainted with python.
+I sincerely hope that you will enjoy and learn something out of it.
